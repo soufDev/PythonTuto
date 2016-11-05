@@ -31,3 +31,4 @@ function_inconnue("ait akkache", 5, 8, p=4, a=5, c="soufiane") #avec aucun param
 
 parametres = {'sep': ' >> ', 'end': '-\n'}
 print("Voici", "un", "example", "d'appel", **parametres)
+
