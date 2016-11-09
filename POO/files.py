@@ -1,3 +1,4 @@
+# -*-coding:Latin-1 -*
 import os
 
 os.chdir("/home/soufiane/Documents")
@@ -42,3 +43,14 @@ with open('donnees', 'rb') as fichier:
     #result = mon_depickler.load()
     print(mon_depickler.load())
     print(mon_depickler.load())
+
+
+i = 0
+
+def inc_i():
+    """Fonction chargé d'incrémenter i"""
+    global i
+    i += 1
+
+inc_i()
+print("i = {0}".format(i))
