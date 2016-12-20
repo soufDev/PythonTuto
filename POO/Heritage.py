@@ -24,7 +24,7 @@ class SpecialAgent(Person):
         return "Agent {0}, Registration Number {1}".format(self.last_name, self.registration_number)
 
 
-agent = SpecialAgent("Fisher", "18545-842")
+agent = SpecialAgent("AIT AKKACHE", "18545-842")
 print(agent.first_name)
 
 print(issubclass(Person, SpecialAgent))
