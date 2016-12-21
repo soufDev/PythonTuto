@@ -18,4 +18,4 @@ class ZDict:
 my_class = ZDict()
 my_class["soufiane"] = "AIT AKKACHE"
 
-print(my_class["soufiane"])
+print(my_class)
