@@ -1,3 +1,5 @@
+# -*-coding:Latin-1 -*
+
 from _operator import attrgetter
 
 
@@ -16,7 +18,7 @@ class Students:
 
 
 students = [
-    Students("ClÃ©ment", 14, 16),
+    Students("Clément", 14, 16),
     Students("Charles", 12, 15),
     Students("Oriane", 14, 18),
     Students("Thomas", 11, 12),

@@ -1,5 +1,5 @@
 # -*-coding:Latin-1 -*
-class OrdredDictionary():
+class OrdredDictionary:
     """class to define an oredred dictionary it heritates from dict class"""
 
     def __init__(self):
