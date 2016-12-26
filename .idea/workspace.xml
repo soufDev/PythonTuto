@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496869a2-fea2-44c9-829e-37e08ee13f35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StandardLibraries/Maths.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StandardLibraries/PasswordManagement.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibraries/SystemProgramming.py" afterPath="$PROJECT_DIR$/StandardLibraries/SystemProgramming.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StandardLibraries/PasswordManagement.py" afterPath="$PROJECT_DIR$/StandardLibraries/PasswordManagement.py" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,6 +19,7 @@
     <SUITE FILE_PATH="coverage/PythonTuto$BlackBoard.coverage" NAME="BlackBoard Coverage Results" MODIFIED="1482140970252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/PythonTuto$ZDict.coverage" NAME="ZDict Coverage Results" MODIFIED="1482327865062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/PythonTuto$examples.coverage" NAME="examples Coverage Results" MODIFIED="1482660716308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibraries" />
+    <SUITE FILE_PATH="coverage/PythonTuto$PasswordManagement.coverage" NAME="PasswordManagement Coverage Results" MODIFIED="1482752594979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibraries" />
     <SUITE FILE_PATH="coverage/PythonTuto$OredredDictionary.coverage" NAME="OredredDictionary Coverage Results" MODIFIED="1482332330232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OrdredDictionary" />
     <SUITE FILE_PATH="coverage/PythonTuto$SortOject.coverage" NAME="SortOject Coverage Results" MODIFIED="1482231102548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/POO" />
     <SUITE FILE_PATH="coverage/PythonTuto$TheTime.coverage" NAME="TheTime Coverage Results" MODIFIED="1482663236995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/StandardLibraries" />
@@ -113,9 +112,11 @@
       <file leaf-file-name="PasswordManagement.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StandardLibraries/PasswordManagement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="78">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,25 +267,7 @@
       <recent name="$PROJECT_DIR$/Intro" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Maths">
-    <configuration default="false" name="examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StandardLibraries" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StandardLibraries/examples.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.PasswordManagement">
     <configuration default="false" name="TheTime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,6 +336,24 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StandardLibraries/Maths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PasswordManagement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/StandardLibraries" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StandardLibraries/PasswordManagement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -566,19 +567,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.examples" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TheTime" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DateTimeFile" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SystemProgramming" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Maths" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TheTime" />
+      <item index="1" class="java.lang.String" itemvalue="Python.DateTimeFile" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SystemProgramming" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Maths" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PasswordManagement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Maths" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SystemProgramming" />
-        <item index="2" class="java.lang.String" itemvalue="Python.DateTimeFile" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TheTime" />
-        <item index="4" class="java.lang.String" itemvalue="Python.examples" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PasswordManagement" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Maths" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SystemProgramming" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DateTimeFile" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TheTime" />
       </list>
     </recent_temporary>
   </component>
@@ -1027,9 +1028,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StandardLibraries/PasswordManagement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="78">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
