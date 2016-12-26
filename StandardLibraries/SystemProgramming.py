@@ -1,3 +1,5 @@
+# -*-coding:Latin-1 -*
+
 import sys, os, signal, argparse
 
 import math
